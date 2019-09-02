@@ -21,7 +21,7 @@ class KetricsDevTools:
         }
         self.env = {key: os.getenv(key) for key in
                     ["KETRICS_USERNAME", "KETRICS_API_URL", "KETRICS_CDN_URL", "KETRICS_WS_URL",
-                     "KETRICS_TOKEN", "applicationUUID", "dataSourceUUID"]}
+                     "KETRICS_TOKEN", "applicationUUID", "dataServerUUID", "dataSourceUUID"]}
 
         self.build_path = "build-ketrics"
         self.build_filename = "ketrics-package.zip"
